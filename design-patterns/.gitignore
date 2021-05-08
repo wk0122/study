@@ -1,0 +1,34 @@
+# IDEA
+# ----
+.idea
+.shelf
+**/*.iml
+/*.ipr
+/*.iws
+*/*.iml
+*.pdf
+*.log
+
+
+# Eclipse
+# -------
+*.classpath
+*.project
+
+
+# OS X
+# ----
+.DS_Store
+
+#target
+**/target/
+**/node_modules/
+*.pid
+
+*.versionsBackup
+/api/src/main/resources/rebel.xml
+/dto/target/
+engine/python/uploads/
+*/__pycache__
+*.pyc
+python/python/scans/
