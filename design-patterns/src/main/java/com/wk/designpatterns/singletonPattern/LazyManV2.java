@@ -69,8 +69,8 @@ public class LazyManV2 {
 
         flag.set(instance2,false);
 
-        LazyManV2 instance3 = constructor.newInstance();
 
+        LazyManV2 instance3 = constructor.newInstance();
 
 
         //地址不一样 破坏了单例 通过在构造 添加标志位进行判断来防止反射 但是反射还是可以修改标志位

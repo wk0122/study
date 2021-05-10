@@ -10,11 +10,17 @@ import java.lang.reflect.InvocationTargetException;
  * 枚举也是个Class类
  */
 public enum EnumSingleton {
-    INSTANCE;
-    
+    INSTANCE(new Pay());
+
+
+    EnumSingleton(Pay pay){}
     public EnumSingleton getInstance(){
         return INSTANCE;
     }
+}
+
+class Pay{
+
 }
 
 class Test{
