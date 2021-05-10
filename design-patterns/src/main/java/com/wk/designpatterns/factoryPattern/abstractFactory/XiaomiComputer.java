@@ -1,4 +1,4 @@
-package com.wk.designpatterns.abstractFactory;
+package com.wk.designpatterns.factoryPattern.abstractFactory;
 
 /**
  * @author wangkang
