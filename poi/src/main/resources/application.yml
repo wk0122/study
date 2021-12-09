@@ -1,0 +1,8 @@
+application:
+  version: "@project.version@"
+############ Server Config
+server:
+  address: 0.0.0.0
+  port: 8099
+  servlet:
+    context-path: /poi
